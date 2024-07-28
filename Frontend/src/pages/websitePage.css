@@ -1,0 +1,89 @@
+/* Styles for the entire page */
+.website-page {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); /* Gradient background */
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px; /* Offset for the navbar */
+  overflow: auto;
+  color: #f0f0f0; /* Light text color */
+  font-family: 'Roboto', sans-serif; /* Modern font */
+}
+
+/* Main content container */
+.main-content-website {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.content-section-website {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.1); /* Light, transparent background */
+  border-radius: 15px;
+  padding: 40px 20px;
+  animation: fadeIn 1.5s;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Pronounced shadow */
+}
+
+.dynamic-text {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #fdbb2d; /* Gold cursor */
+  animation: typing 3.5s steps(30, end), blink 0.75s step-end infinite;
+}
+
+.paragraph {
+  margin-bottom: 30px;
+}
+
+.paragraph p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.highlighted {
+  color: #fdbb2d; /* Gold highlight */
+  font-weight: bold;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.highlight-item {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Darker, semi-transparent background */
+  color: white;
+  text-align: center;
+}
+
+/* Keyframes for animations */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    
+  }}
